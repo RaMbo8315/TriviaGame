@@ -128,7 +128,7 @@ $(document).ready(function () {
     function inBetweenWrong() {
         wrongTextGenerator();
         $("#question").html(wrongText[wrongPicker]);
-        $("#answers").empty();
+        $("#answers").html(questions[tracker].rightAnswer);
         next = setInterval(stopTimer, 1000);
     };
 
