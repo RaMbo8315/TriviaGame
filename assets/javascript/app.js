@@ -134,7 +134,7 @@ $(document).ready(function () {
 
     function inBetweenOutOfTime() {
         $("#question").text("Out of Time");
-        $("#answers").empty();
+        $("#answers").html(questions[tracker].rightAnswer);
         next = setInterval(stopTimer, 1000);
     };
 
@@ -151,6 +151,7 @@ $(document).ready(function () {
         nexTimer--;
 
         if (nexTimer === 0 && tracker < 9) {
+            $("#answers").empty();
             stopNext();
             displayQuestion(tracker, 0);
             answerQuestion();
