@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url('../images/hiphop1.jpg');
+}
+
+#container {
+    opacity: 0.9;
+    border-style: solid;
+    margin-left: 380px;
+    width: 600px;
+    height: 600px;
+    background-color: white;
+}
+
+h1 {
+    border-bottom-style: solid;
+    padding-top: 15px;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center; 
+}
+
+#start {
+    margin-top: 100px;
+    text-align: center;
+}
+
+#timer {
+    font-size: 35px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.answer, #question, #answers {
+    padding: 5px;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.answer:hover {
+    color: blue;
+}
+
+#gameDiv {
+    margin-top: 80px;
+    margin-left: 50px;
+
+}
