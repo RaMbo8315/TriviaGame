@@ -11,7 +11,7 @@ var questions = [{
     },
 
     {
-        question: "The Notorious B.I.G. was known aliases, which one of these is not one of them ?",
+        question: "The Notorious B.I.G. has many known aliases, which one of these is not one of them ?",
         answers: [" A: Biggie Smalls", " B: Frank White", " C: Big poppa", " D: Heavy D"],
         rightAnswer: " D: Heavy D",
     },
